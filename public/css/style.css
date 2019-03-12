@@ -1,0 +1,49 @@
+.Fondo-panel {
+    background-color: #f1f1f1;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.Fondo-nav {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+ul.redesSociales {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.redesSociales li {
+    display: inline-block;
+}
+
+ul li a.redes {
+    width: 50px;
+    display: block;
+    height: 50px;
+    background-image: url(../imagenes/739236-social-network.png);
+    background-repeat: no-repeat;
+    background-size: 400%;
+}
+
+.face {
+    background-position-x: 6%;
+    background-position-y: 4%;
+}
+
+.twit {
+    background-position-x: 6%;
+    background-position-y: 50%;
+}
+
+.inst {
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.wath {
+    background-position-x: 5%;
+    background-position-y: 95%;
+}
