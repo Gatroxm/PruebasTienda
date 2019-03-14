@@ -13,7 +13,7 @@
     @foreach ($usuarios as $usuario)
         <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mt-2">
             <div class="card">
-            <img src="imagenes/avatars/{{ $usuario->avatar }}" class="card-img-top" alt="..."> 
+            <img src="{{asset('imagenes/avatars')}}/{{ $usuario->avatar }}" class="card-img-top" alt="..."> 
                 <div class="card-body">
                     <h5 class="card-title">{{  $usuario->name  }} {{ $usuario->apellido }}</h5>
                     <p class="card-text"><strong>Restaurante:</strong> {{$usuario->restauranteName }}</p>
